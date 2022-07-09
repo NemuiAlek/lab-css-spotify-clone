@@ -1,0 +1,61 @@
+
+html{
+    max-width: 1500px;
+    margin:auto;
+}
+
+
+body {
+    margin: 0;
+    padding: 0 0 0;
+}
+
+nav{
+    max-width: 1500px;
+    margin-bottom: 0;
+    margin: auto;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    padding: 0 2vw 0;
+    height: 5.5rem;
+    /* fexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav div:nth-child(2) {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 24%;
+    font-size: 20px;
+    
+}
+
+
+nav > img {
+    width: 170px;
+}
+
+.tile1{
+    background-image: url(./images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height:800px;
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+
+}
+
+.tile1Title{
+}
+h1{
+    margin:0;
+}
